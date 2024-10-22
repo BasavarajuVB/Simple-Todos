@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+
+  background-size: cover;
+  padding: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  margin-top: 50px;
+  min-width: 80%;
+}
+.main-heading {
+  font-size: 35px;
+  font-family: 'roboto';
+  font-weight: 600;
+  color: #ff8542;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    height: 150vh;
+    background-size: cover;
+  }
+}
